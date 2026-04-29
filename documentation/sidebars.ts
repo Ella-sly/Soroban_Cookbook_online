@@ -35,6 +35,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'patterns/overview',
         'patterns/hello-world',
+        'patterns/custom-types',
       ],
     },
     {
