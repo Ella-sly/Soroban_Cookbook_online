@@ -6,5 +6,7 @@ members = [
     "simple-voting",
     "simple-dao",
     "upgradeable",
+    "authorization",
+    "error-handling",
 ]
 resolver = "2"
