@@ -4,8 +4,6 @@ description: How to contribute a new Soroban code example that is validated auto
 sidebar_position: 2
 ---
 
-# Adding a Tested Code Example
-
 Every code example in the Soroban Cookbook lives in the `examples/` directory at the root of the repository. Each example is a self-contained Rust crate with its own `Cargo.toml` and `src/lib.rs`. The CI pipeline runs `cargo test` for every example on every pull request, so all published snippets are always verified.
 
 ## Directory layout
@@ -152,10 +150,18 @@ If your PR introduces a new example, CI will automatically pick it up because th
 Install Rust: https://www.rust-lang.org/tools/install
 
 **`soroban_sdk` version mismatch**
-Check the latest version on [crates.io](https://crates.io/crates/soroban-sdk) and update `Cargo.toml` accordingly.
+Check the latest version on [docs.rs](https://docs.rs/soroban-sdk/latest) and update `Cargo.toml` accordingly.
 
 **Test compilation errors**
 Make sure `[lib] crate-type` includes `"rlib"`. Without it, the test harness cannot link the crate.
 
 **`env.register` vs `env.register_contract`**
 Use `env.register(MyContract, ())` (SDK ≥ 21). The older `env.register_contract` was removed in recent releases.
+
+---
+
+## Related links
+
+- [Contributing Guide](/docs/contributing) — full contribution workflow
+- [Pattern Library](/docs/patterns/overview) — where examples are documented
+- [Internal Linking Strategy](/docs/contributing/internal-linking) — link new pages into the site graph

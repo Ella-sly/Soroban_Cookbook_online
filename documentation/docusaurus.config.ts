@@ -230,7 +230,7 @@ const config: Config = {
           items: [
             {
               label: 'Soroban Docs',
-              href: 'https://developers.stellar.org/docs/smart-contracts',
+              href: 'https://developers.stellar.org/docs/build/smart-contracts',
             },
             {
               label: 'GitHub',

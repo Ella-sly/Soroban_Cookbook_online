@@ -4,8 +4,6 @@ title: Gas and Resource Management
 description: Document resource usage fundamentals and optimization strategies in Soroban.
 ---
 
-# Gas and Resource Management
-
 In Soroban, smart contracts execute within resource budgets to ensure the network remains efficient and fair for all users. Managing gas and resources is a critical part of developing cost-effective and scalable smart contracts. 
 
 This guide outlines how to identify high-cost operations, strategies to optimize resource consumption, and practical methods for monitoring contract performance.
@@ -115,3 +113,11 @@ To ensure your contracts remain within budget and are cost-effective, continuous
 
 3. **Monitor the Network Limits:**
    Keep an eye on the Stellar network's global parameters. If network usage spikes, the cost per instruction or ledger byte can increase. Design your contracts to comfortably fit within baseline limits to avoid out-of-gas errors during high-traffic periods.
+
+---
+
+## Related links
+
+- [Optimization Playbook](/docs/patterns/optimization-playbook) — systematic profiling and gas reduction
+- [Storage Patterns](/docs/concepts/storage) — storage cost drivers
+- [Building and Compilation](/docs/getting-started/building-and-compilation) — release builds and WASM size

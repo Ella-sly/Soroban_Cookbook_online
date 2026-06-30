@@ -21,6 +21,7 @@ const sidebars: SidebarsConfig = {
         'getting-started/contract-interaction',
         'contributing',
         'contributing/add-tested-example',
+        'contributing/internal-linking',
       ],
     },
     {
@@ -55,6 +56,8 @@ const sidebars: SidebarsConfig = {
       label: 'Security',
       items: [
         'security/fundamentals',
+        'security/governance',
+        'security/token-audit',
       ],
     },
     {

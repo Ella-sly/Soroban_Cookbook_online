@@ -1,6 +1,10 @@
-# Environment Setup
+---
+title: Environment Setup
+description: Set up your Soroban development environment to start building smart contracts.
+sidebar_position: 1
+---
 
-Set up your Soroban development environment to start building smart contracts.
+For platform-specific instructions, see [Linux Environment Setup](/docs/getting-started/setup-linux) or [Windows Environment Setup](/docs/getting-started/setup-windows).
 
 ## Prerequisites
 
@@ -83,4 +87,4 @@ Now that your environment is ready:
 **Need Help?**
 
 - [Stellar Discord](https://discord.gg/stellardev)
-- [Soroban Documentation](https://developers.stellar.org/docs/smart-contracts)
+- [Soroban Documentation](https://developers.stellar.org/docs/build/smart-contracts)

@@ -1,10 +1,8 @@
 ---
-title: Pattern library
+title: Pattern Library
 description: Reusable Soroban smart contract patterns — storage, tokens, DeFi, and more.
 image: /img/soroban-social-card.png
 ---
-
-# Pattern Library
 
 Reusable smart contract patterns for common use cases.
 
@@ -44,6 +42,8 @@ Comprehensive error handling patterns including Result types, fallback logic, gr
 - Token wrappers and vaults
 - Multi-token systems
 
+See [Token Pattern Security Audit](/docs/security/token-audit) for per-pattern audit checklists before deploying token contracts.
+
 ### 💰 DeFi Patterns
 
 <span class="sb-tag sb-tag--defi">DeFi</span>
@@ -81,7 +81,7 @@ Each pattern includes:
 
 ## Contributing
 
-Have a pattern to share? See our [Contributing Guide](https://github.com/Soroban-Cookbook/Soroban-Cookbook-/blob/main/CONTRIBUTING.md).
+Have a pattern to share? See our [Contributing Guide](https://github.com/Soroban-Cookbook/Soroban_Cookbook_online/blob/main/CONTRIBUTING.md).
 
 ## Getting Started
 
@@ -94,5 +94,8 @@ Start exploring:
 
 ## Resources
 
+- [Error Handling pattern](/docs/patterns/error-handling) — error taxonomy for production contracts
+- [Hello World Storage](/docs/patterns/hello-world) — pattern page template
+- [Security Fundamentals](/docs/security/fundamentals) — review before mainnet
 - [Soroban Examples](https://github.com/stellar/soroban-examples)
-- [Community Patterns](https://github.com/Soroban-Cookbook/Soroban-Cookbook-)
+- [Community Patterns](https://github.com/Soroban-Cookbook/Soroban_Cookbook_online)

@@ -1,4 +1,8 @@
-# Authorization
+---
+title: Authorization
+description: Access control patterns for Soroban smart contracts.
+sidebar_position: 5
+---
 
 Authorization in Soroban ensures only expected identities can execute sensitive contract actions.
 
@@ -24,5 +28,6 @@ Authorization in Soroban ensures only expected identities can execute sensitive 
 ## Next
 
 - [Security Fundamentals](../security/fundamentals.md)
+- [Token Pattern Security Audit](../security/token-audit.md)
 - [Storage Patterns](./storage.md)
 - [Events](./events.md)

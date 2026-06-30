@@ -1,4 +1,8 @@
-# Your First Contract
+---
+title: Your First Contract
+description: Learn how to create, build, and test your first Soroban smart contract.
+sidebar_position: 4
+---
 
 Learn how to create, build, and test your first Soroban smart contract.
 
@@ -76,9 +80,10 @@ cargo test
 
 ## Next Steps
 
-- [Deploy to testnet](./deploy-testnet)
-- [Learn about storage](../concepts/storage)
-- [Explore patterns](../patterns/overview.md)
+- [Building and Compilation](/docs/getting-started/building-and-compilation) — compile your contract to WASM
+- [Deploy to testnet](/docs/getting-started/deploy-testnet)
+- [Learn about storage](/docs/concepts/storage)
+- [Explore patterns](/docs/patterns/overview)
 
 ## Resources
 
